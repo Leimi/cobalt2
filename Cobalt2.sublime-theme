@@ -653,6 +653,11 @@
         "layer0.inner_margin": -5,
         "content_margin": [0,0] // hide for now until we get better icons
     },
+    // Sidebar file, no icon
+    {
+        "class": "icon_file_type",
+        "content_margin": [0,0]
+    },
 //
 // STANDARD TEXT BUTTONS
 //
