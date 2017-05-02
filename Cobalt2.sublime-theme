@@ -506,7 +506,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [215, 215, 215],
+        "color": [138, 214, 242],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, -1],
         "font.size": 12
@@ -520,6 +520,11 @@
         "class": "sidebar_label",
         "settings": ["sidebar_font_small"],
         "font.size": 10
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "color": [186, 231, 247]
     },
     // Sidebar folder entry
     {
@@ -542,9 +547,8 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [210, 210, 210],
-        "shadow_color": [0, 0, 0],
-        "shadow_offset": [1, 1]
+        "color": [138, 214, 242]
+        // yellow: "color": [255, 198, 0]
     },
 
 
